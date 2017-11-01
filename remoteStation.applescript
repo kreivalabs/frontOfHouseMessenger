@@ -1,3 +1,5 @@
+#version 1.2 / 31-October-2017
+
 #This is the AppleScript version for the SENDING end (the remote engineer who sends messages TO front of house)
 #Note: eppc protocol is unstable on OS X 10.8
 
@@ -22,15 +24,15 @@ try
 			set messageColor to "red"
 			delay 0.5
 			repeat 4 times
-			#clear the message window
+				#clear the message window
 				set message to ""
 				delay 0.5
-        #set the warning message
+				#set the warning message
 				set message to "-- INCOMING --"
 				delay 0.5
 			end repeat
-      #clear the window
-			set message to "" 
+			#clear the window
+			set message to ""
 			delay 0.5
 			#display text entered in dialgo box
 			set message to theMessage
