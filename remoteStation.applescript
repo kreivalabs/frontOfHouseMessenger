@@ -7,7 +7,8 @@
 
 #This applet requires "QDisplay" (https://github.com/Figure53/QDisplay) to be installed on the remote machine
 #eppc protocol addressing takes the form "eppc://username:password@IPaddress"
-#requires that the local (sending) user have administrative privileges over the remote (receiving) machine 
+#requires that the local (sending) user have administrative privileges over the remote (receiving) machine, and that 
+#Remote Apple Events be enabled in System Preferences>Sharing.
 
 set remoteMachine to "eppc://username:password@IPaddress"
 #update the above to username, password and IPaddress of remote (receiving) machine
