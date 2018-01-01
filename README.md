@@ -6,6 +6,8 @@ communication.
 The scripts require an installation of QDisplay (https://github.com/Figure53/QDisplay) on both the remote/sending and 
 local/receiving machines. As this is written in AppleScript, the program is obvious macOS-only. 
 
+Remote Apple Events must be enabled on both machines (System Preferences>Sharing).
+
 It is assumed that the front of house/local machine is also running an instance of QLab, and therefore the received/clear message
 will be triggered via an interal Script cue within the performance workspace. 
 
