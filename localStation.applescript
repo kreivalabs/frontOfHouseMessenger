@@ -5,7 +5,8 @@
 
 #Configuration:
 #eppc protocol addressing takes the form "//user:password@IPaddress"
-#requires that the remote user have administrative privileges over the destination device
+#requires that the remote user have administrative privileges over the destination device and that Remote Apple Events be enabled
+#in System Preferences>Sharing.
 
 
 set remoteMachine to "eppc://user:password@xxx.xxx.xxx.xxx"
