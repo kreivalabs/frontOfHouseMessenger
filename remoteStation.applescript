@@ -1,10 +1,11 @@
 -- @file: remoteStation.AppleScript
 -- @author: Brendan Hogan
--- @version: 1.2.1
--- @update: 2018-02-05
+-- @version: 1.3.0
+-- @update: 2018-07-05
 
 -- Version history
 
+-- ver. 1.3.0 : update comment formatting; add header block for clarity
 -- ver. 1.2.1 : update formatting for better EPPC definitions
 
  
