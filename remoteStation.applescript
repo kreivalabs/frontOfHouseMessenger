@@ -1,25 +1,23 @@
-# @file: remoteStation.AppleScript
-# @author: Brendan Hogan
-# @version: 1.2.1
-# @update: 2018-02-05
+-- @file: remoteStation.AppleScript
+-- @author: Brendan Hogan
+-- @version: 1.2.1
+-- @update: 2018-02-05
 
-# Version history
+-- Version history
 
-# ver. 1.2.1 : update formatting for better EPPC definitions
+-- ver. 1.2.1 : update formatting for better EPPC definitions
 
-(* 
-This is the AppleScript version for the SENDING end (the remote engineer who sends messages TO front of house)
-Note: eppc protocol is unstable on OS X 10.8
-*)
+ 
+-- This is the AppleScript version for the SENDING end (the remote engineer who sends messages TO front of house)
+-- Note: eppc protocol is unstable on OS X 10.8
 
-(*
-Configuration: 
 
-This applet requires "QDisplay" (https://github.com/Figure53/QDisplay) to be installed on the remote machine
-eppc protocol addressing takes the form "eppc://username:password@IPaddress"
-requires that the local (sending) user have administrative privileges over the remote (receiving) machine, and that 
-Remote Apple Events be enabled in System Preferences>Sharing.
-*)
+-- Configuration: 
+
+-- This applet requires "QDisplay" (https://github.com/Figure53/QDisplay) to be installed on the remote machine
+-- eppc protocol addressing takes the form "eppc://username:password@IPaddress"
+-- requires that the local (sending) user have administrative privileges over the remote (receiving) machine, and that 
+-- Remote Apple Events be enabled in System Preferences>Sharing.
 
 set remoteMachine to "eppc://username:password@IPaddress"
 -- update the above to username, password and IPaddress of remote (receiving) machine
