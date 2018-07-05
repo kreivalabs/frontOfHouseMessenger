@@ -1,17 +1,21 @@
 -- @file: remoteStation.AppleScript
 -- @author: Brendan Hogan
--- @version: 1.3.0
+-- @version: 1.3.1
 -- @update: 2018-07-05
 
 -- Version history
 
+-- ver. 1.3.1 : minor formatting adjustments
+-- 2018-07-05
+
 -- ver. 1.3.0 : update comment formatting; add header block for clarity
+-- 2018-07-05
+
 -- ver. 1.2.1 : update formatting for better EPPC definitions
 
  
 -- This is the AppleScript version for the SENDING end (the remote engineer who sends messages TO front of house)
 -- Note: eppc protocol is unstable on OS X 10.8
-
 
 -- Configuration: 
 
