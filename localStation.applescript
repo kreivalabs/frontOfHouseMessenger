@@ -1,5 +1,13 @@
+# @file: localStation.AppleScript
+# @author: Brendan Hogan
+# @version: 1.2.1
+# @update: 2018-02-05
+
+# Version history
+
+# ver. 1.2.1 : update formatting for better EPPC definitions
+
 (*
-version 1.2.1 / 05-Feburary-2018
 
 This is the AppleScript file run from the front of house machine that receives messages FROM the remote machine/engineer.
 Note: eppc protocol is unstable on OS X 10.8
